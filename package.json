@@ -1,12 +1,16 @@
 {
   "version": "1.0.0",
   "name": "regalias-node",
+  "scripts": {
+    "test": "vitest"
+  },
   "main": "index.mjs",
   "repository": "git@github.com:482F/regalias-node.git",
   "author": "482F <0ryonryoko0@gmail.com>",
   "license": "Apache License 2.0",
   "private": false,
   "dependencies": {
-    "random-seed": "^0.3.0"
+    "random-seed": "^0.3.0",
+    "vitest": "^0.15.1"
   }
 }
