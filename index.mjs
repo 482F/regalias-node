@@ -5,6 +5,7 @@ const aux = ['の', '・オブ・', '・', 'ザ・']
 import gen from 'random-seed'
 
 export default function regalias(seed) {
+  seed ??= new Date().getTime() + Math.random()
   const rand = gen(seed)
   while (true) {
     const headIndice = { r: undefined, c: undefined }
