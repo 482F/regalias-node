@@ -10,7 +10,7 @@
 # インストール方法
 
 ```bash
-yarn add https://github.com/akrisrn/regalias
+yarn add https://github.com/482F/regalias-node
 ```
 
 # 使用方法
